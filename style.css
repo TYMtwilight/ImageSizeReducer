@@ -20,15 +20,21 @@ body {
 .display-zone {
   margin: 0;
   width: 100%;
-  min-height: 300px;
+  height: 300px;
+  text-align: center;
 }
 
+.image-box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
 
-.image-list .image {
-  display: block;
+.image-box canvas {
   width: 200px;
   height: 200px;
-  margin: 20px auto;
+  margin-top: 10px;
+  flex: 0 0 19%;
   border: none;
 }
 
@@ -39,4 +45,11 @@ p {
 
 .file-zone.on {
   background-color: rgba(220, 220, 230, 0.8);
+}
+
+.download {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  padding: 0;
 }
