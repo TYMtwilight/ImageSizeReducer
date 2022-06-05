@@ -1,0 +1,42 @@
+body {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.file-zone {
+  width: 100%;
+  height: calc(100% - 300px);
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-image: url("./23775413_m.jpg");
+  background-blend-mode: lighten;
+  align-items: center;
+  transition: 200ms all ease-out;
+}
+
+.display-zone {
+  margin: 0;
+  width: 100%;
+  min-height: 300px;
+}
+
+
+.image-list .image {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  border: none;
+}
+
+p {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.file-zone.on {
+  background-color: rgba(220, 220, 230, 0.8);
+}
